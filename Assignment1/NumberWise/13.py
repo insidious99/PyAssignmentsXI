@@ -6,11 +6,7 @@ z = float(input("Enter your marks in Subject 3: "))
 
 a = round((x + y + z) / 3, 2)
 
-if x or y or z > 100:
-	print("Invalid input.")
-elif x or y or z < 0:
-	print("Invalid input.")
-elif a >= 90:
+if a >= 90:
 	print("Average: ", a)
 	print("Grade A")
 elif a >= 80:
